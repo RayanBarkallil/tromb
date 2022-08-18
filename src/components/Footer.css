@@ -1,0 +1,27 @@
+.main-footer{
+    color: white;
+    background-color: rgb(6, 6, 94);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-height: 500px;
+    margin-top: 150px;
+}
+
+ul li a {
+    color: inherit;
+    text-decoration: inherit;
+    
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.social-medio-icons-white a {
+    color : white;
+    font-size: 2rem;
+    height:10px;
+}
+

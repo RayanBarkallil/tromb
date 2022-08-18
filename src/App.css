@@ -1,0 +1,60 @@
+h1 {
+  margin-right:none;/*700*/
+  color :rgb(6, 6, 94)
+}
+
+.page-container{
+  display: flex;
+  flex-direction:  column;
+}
+
+.navbar {
+  position:absolute;
+  top: 0;
+  left: 0;
+  background:rgb(6, 6, 94);
+  display: flex;
+  width: 100% ;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+.row{
+  position:relative;
+  margin-top: 150px;
+}
+
+.navbar-logo{
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.nav-items {
+  display:  flex;
+  list-style: none;
+  text-align: center;
+  width: 60vm;
+  justify-content: flex-end;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgb(0, 212, 212);
+}
