@@ -8,7 +8,7 @@
     {
       id: 2,
       title: "Notre équipe",
-      path: "./",
+      path: "/",
       cName: "nav-item",
     },
     {
